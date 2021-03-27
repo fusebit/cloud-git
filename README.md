@@ -1,4 +1,4 @@
-# cloud-git: Node.js git server for cloud-native applications
+# Cloud-git: Node.js git server for cloud-native applications
 
 Cloud-git is a pure-JavaScript git server you can expose as part of the HTTP APIs of your app: 
 
