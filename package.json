@@ -16,18 +16,18 @@
     "url": "http://github.com/fusebit/cloud-git/issues"
   },
   "engines": {
-    "node": ">= 10"
-  },
-  "dependencies": {
+    "node": ">= 14.14"
   },
   "devDependencies": {
-    "prettier": "^2.0.5",
+    "express": "^4.17.1",
     "jest": "^24.9.0",
-    "express": "^4.17.1"
+    "prettier": "^2.0.5",
+    "uuid": "^8.3.2"
   },
   "scripts": {
     "test": "jest --colors",
     "coverage": "jest --colors --coverage",
-    "prettier": "prettier --write ./lib ./test"
+    "prettier": "prettier --write ./lib ./test",
+    "sample": "node sample/server.js"
   }
 }
