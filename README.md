@@ -4,7 +4,7 @@ Cloud-git is a 100% JavaScript git server you can expose as part of the HTTP API
 
 * Expose a Git repository as an Express route of your application. 
 * Pure JavaScript, no dependencies on native git libraries. 
-* Extensible to use any cloud-native storage like AWS S3, no dependnecy on the file system. 
+* Extensible to use any cloud-native storage like AWS S3, no dependency on the file system. 
 * HTTP or HTTPS.
 * Read/write (push/pull). 
 * Supports authentication.
