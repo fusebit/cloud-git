@@ -115,7 +115,7 @@ class GitRepository {
     async getHeadRef(req) {}
     async authorize(req, res, next) {}
     async getReceivePackSuccessMessage(req, commands, objects) {}
-    async getUploadPackSuccessMessage(req, objects)
+    async getUploadPackSuccessMessage(req, objects) {}
 }
 ```
 
@@ -243,4 +243,4 @@ There is no single, comprehensive documentation of the git protocol out there. T
 * The [git http protocol](https://git-scm.com/docs/http-protocol) provides an overview of the HTTP protocol for git. 
 * The [common protocol elements](https://git-scm.com/docs/protocol-common) specifies the basic ABNF terms the rest of the protocol layers depend on. 
 * The [pack format](https://git-scm.com/docs/pack-format) describes the syntax of the pack files, which is a binary format used to transfer compressed git objects. 
-* The Git Book has some useful content of the [format of the packfile](http://shafiul.github.io/gitbook/7_the_packfile.html) and [transfer protocols](http://shafiul.github.io/gitbook/7_transfer_protocols.html).
+* The Git Book has some useful content about the [format of the packfile](http://shafiul.github.io/gitbook/7_the_packfile.html) and [transfer protocols](http://shafiul.github.io/gitbook/7_transfer_protocols.html).
