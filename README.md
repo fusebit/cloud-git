@@ -1,6 +1,6 @@
 # Cloud-git: Node.js git server for cloud-native applications
 
-Cloud-git is a 100% JavaScript git server you can expose as part of the HTTP APIs of your app: 
+[Cloud-git](https://fusebit.io/blog/make-git-your-api/) is a 100% JavaScript git server you can expose as part of the HTTP APIs of your app: 
 
 * Expose a Git repository as an Express route of your application. 
 * Pure JavaScript, no dependencies on native git libraries. 
